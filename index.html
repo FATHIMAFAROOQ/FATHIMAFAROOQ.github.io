@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="attendance.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Attendance</h1>
+    </header>
+
+    <section>
+        <details>
+            <summary>How the form works?</summary>
+
+            <p>Checked boxes rep students whoo r present ☑️</p>
+            <p>Unchecked boxes rep students whoo r absent 🔲</p>
+        </details>
+    </section>
+
+    <form method="post" id="check" action="https://httpbin.org/post" method="post" target="_blank"></form>
+    <table>
+        <thead>
+            <tr>
+                <th>Check</th>
+                <th>S.NO</th>
+                <th>RRN</th>
+                <th>NAME</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- <input type="checkbox" name="students" id="st1" value="1" checked form="check" /> -->
+                    <div class="checkbox-wrapper-26">
+                        <input type="checkbox" class="_checkbox-26" name="students" id="st1" value="1" checked form="check">
+                        <label for="_checkbox-26">
+                        <div class="tick_mark"></div>
+                        </label>
+                    </div>
+                </td>
+                <td>
+                    <label for="st1">1</label>
+                </td>
+                <td>200071601001</td>
+                <td>AADIL MOHAMMED SALIL</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2" value="2" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2">2</label>
+                </td>
+                <td>200071601002</td>
+                <td>AASIM IFRAQ. M.A</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st3" value="3" checked form="check" />
+                </td>
+                <td>
+                    <label for="st3">3</label>
+                </td>
+                <td>200071601003</td>
+                <td>ABDUL ASHIF. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st4" value="4" checked form="check" />
+                </td>
+                <td>
+                    <label for="st4">4</label>
+                </td>
+                <td>200071601004</td>
+                <td>ABDUL KADIR FAWAS NIZAM</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st5" value="5" checked form="check" />
+                </td>
+                <td>
+                    <label for="st5">5</label>
+                </td>
+                <td>200071601005</td>
+                <td>ABDUL KATHER IBRAHIM. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st6" value="6" checked form="check" />
+                </td>
+                <td>
+                    <label for="st6">6</label>
+                </td>
+                <td>200071601006</td>
+                <td>ABDUL RAQUIB. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st7" value="7" checked form="check" />
+                </td>
+                <td>
+                    <label for="st7">7</label>
+                </td>
+                <td>200071601007</td>
+                <td>ABDULLAH MASTAN</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st8" value="8" checked form="check" />
+                </td>
+                <td>
+                    <label for="st8">8</label>
+                </td>
+                <td>200071601008</td>
+                <td>ABDULLAHMOHAMED. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st9" value="9" checked form="check" />
+                </td>
+                <td>
+                    <label for="st9">9</label>
+                </td>
+                <td>200071601009</td>
+                <td>ABDUR RAHMAAN SYED. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st10" value="10" checked form="check" />
+                </td>
+                <td>
+                    <label for="st10">10</label>
+                </td>
+                <td>200071601010</td>
+                <td>ABINAYA. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st11" value="11" checked form="check" />
+                </td>
+                <td>
+                    <label for="st11">11</label>
+                </td>
+                <td>200071601011</td>
+                <td>ABISHEK. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st12" value="12" checked form="check" />
+                </td>
+                <td>
+                    <label for="st12">12</label>
+                </td>
+                <td>200071601012</td>
+                <td>ABISHEK. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st13" value="13" checked form="check" />
+                </td>
+                <td>
+                    <label for="st13">13</label>
+                </td>
+                <td>200071601013</td>
+                <td>AFREED. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st14" value="14" checked form="check" />
+                </td>
+                <td>
+                    <label for="st14">14</label>
+                </td>
+                <td>200071601014</td>
+                <td>AHMED NAZIR RIFAYA. R.A</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st15" value="15" checked form="check" />
+                </td>
+                <td>
+                    <label for="st15">15</label>
+                </td>
+                <td>200071601015</td>
+                <td>AISHWARYA ANGELEENA</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st16" value="16" checked form="check" />
+                </td>
+                <td>
+                    <label for="st16">16</label>
+                </td>
+                <td>200071601016</td>
+                <td>AMAANULLAH ANWER</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st17" value="17" checked form="check" />
+                </td>
+                <td>
+                    <label for="st17">17</label>
+                </td>
+                <td>200071601017</td>
+                <td>AMMAR JAFRI. R</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st19" value="19" checked form="check" />
+                </td>
+                <td>
+                    <label for="st19">19</label>
+                </td>
+                <td>200071601019</td>
+                <td>ANEES AHMED</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st20" value="20" checked form="check" />
+                </td>
+                <td>
+                    <label for="st20">20</label>
+                </td>
+                <td>200071601020</td>
+                <td>ARUNAN. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st21" value="21" checked form="check" />
+                </td>
+                <td>
+                    <label for="st21">21</label>
+                </td>
+                <td>200071601021</td>
+                <td>ASFAR SALIH. A</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st22" value="22" checked form="check" />
+                </td>
+                <td>
+                    <label for="st22">22</label>
+                </td>
+                <td>200071601022</td>
+                <td>AZIZ M. HIRANI</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st23" value="23" checked form="check" />
+                </td>
+                <td>
+                    <label for="st23">23</label>
+                </td>
+                <td>200071601023</td>
+                <td>BHAVITHRA. S.R</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st24" value="24" checked form="check" />
+                </td>
+                <td>
+                    <label for="st24">24</label>
+                </td>
+                <td>200071601024</td>
+                <td>BRAGADEESH. A</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st25" value="25" checked form="check" />
+                </td>
+                <td>
+                    <label for="st25">25</label>
+                </td>
+                <td>200071601025</td>
+                <td>CHEGONDI MANOJ SAI</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st26" value="26" checked form="check" />
+                </td>
+                <td>
+                    <label for="st26">26</label>
+                </td>
+                <td>200071601026</td>
+                <td>DEEPAK. D</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st27" value="27" checked form="check" />
+                </td>
+                <td>
+                    <label for="st27">27</label>
+                </td>
+                <td>200071601027</td>
+                <td>D S AYESHA SULTANA</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st28" value="28" checked form="check" />
+                </td>
+                <td>
+                    <label for="st28">28</label>
+                </td>
+                <td>200071601028</td>
+                <td>DIVAKAR. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st29" value="29" checked form="check" />
+                </td>
+                <td>
+                    <label for="st29">29</label>
+                </td>
+                <td>200071601029</td>
+                <td>DUDEKULA INAMUR RAHMAN</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st30" value="30" checked form="check" />
+                </td>
+                <td>
+                    <label for="st30">30</label>
+                </td>
+                <td>200071601030</td>
+                <td>FAHEEM FEROZ KHAN</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st31" value="31" checked form="check" />
+                </td>
+                <td>
+                    <label for="st31">31</label>
+                </td>
+                <td>200071601031</td>
+                <td>FAIZ AHMED. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st32" value="32" checked form="check" />
+                </td>
+                <td>
+                    <label for="st32">32</label>
+                </td>
+                <td>200071601032</td>
+                <td>FARHAAN KUNHAMED BARAMY. T</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st33" value="33" checked form="check" />
+                </td>
+                <td>
+                    <label for="st33">33</label>
+                </td>
+                <td>200071601033</td>
+                <td>FATHIMA ISMAIL</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st34" value="34" checked form="check" />
+                </td>
+                <td>
+                    <label for="st34">34</label>
+                </td>
+                <td>200071601034</td>
+                <td>FATHIMAFAROOQ. F</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st35" value="35" checked form="check" />
+                </td>
+                <td>
+                    <label for="st35">35</label>
+                </td>
+                <td>200071601035</td>
+                <td>FAWWAZ NUMAN</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st36" value="36" checked form="check" />
+                </td>
+                <td>
+                    <label for="st36">36</label>
+                </td>
+                <td>200071601036</td>
+                <td>FAZIL RAHMAN. Z</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st37" value="37" checked form="check" />
+                </td>
+                <td>
+                    <label for="st37">37</label>
+                </td>
+                <td>200071601037</td>
+                <td>FIRDOUS AHAMED. N</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st38" value="38" checked form="check" />
+                </td>
+                <td>
+                    <label for="st38">38</label>
+                </td>
+                <td>200071601038</td>
+                <td>MOHAMMED WARIS</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st39" value="39" checked form="check" />
+                </td>
+                <td>
+                    <label for="st39">39</label>
+                </td>
+                <td>200071601039</td>
+                <td>HARI HARAN. T.S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st40" value="40" checked form="check" />
+                </td>
+                <td>
+                    <label for="st40">40</label>
+                </td>
+                <td>200071601040</td>
+                <td>HARISH. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st41" value="41" checked form="check" />
+                </td>
+                <td>
+                    <label for="st41">41</label>
+                </td>
+                <td>200071601041</td>
+                <td>HAROON RASHEETH. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st42" value="42" checked form="check" />
+                </td>
+                <td>
+                    <label for="st42">42</label>
+                </td>
+                <td>200071601042</td>
+                <td>HASSAN SYED</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st43" value="43" checked form="check" />
+                </td>
+                <td>
+                    <label for="st43">43</label>
+                </td>
+                <td>200071601043</td>
+                <td>HUMAYOON NIYAZ</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st44" value="44" checked form="check" />
+                </td>
+                <td>
+                    <label for="st44">44</label>
+                </td>
+                <td>200071601044</td>
+                <td>ISHWARYA. S</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st45" value="45" checked form="check" />
+                </td>
+                <td>
+                    <label for="st45">45</label>
+                </td>
+                <td>200071601045</td>
+                <td>JABEER. J</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st46" value="46" checked form="check" />
+                </td>
+                <td>
+                    <label for="st46">46</label>
+                </td>
+                <td>200071601046</td>
+                <td>JAVED SAMSUDEEN. N</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st47" value="47" checked form="check" />
+                </td>
+                <td>
+                    <label for="st47">47</label>
+                </td>
+                <td>200071601047</td>
+                <td>JAYASRI. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st48" value="48" checked form="check" />
+                </td>
+                <td>
+                    <label for="st48">48</label>
+                </td>
+                <td>200071601048</td>
+                <td>JENI VINCIA PRAVEENA. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st49" value="49" checked form="check" />
+                </td>
+                <td>
+                    <label for="st49">49</label>
+                </td>
+                <td>200071601049</td>
+                <td>JENNIFER. J</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st50" value="50" checked form="check" />
+                </td>
+                <td>
+                    <label for="st50">50</label>
+                </td>
+                <td>200071601050</td>
+                <td>JOEL. V</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st51" value="51" checked form="check" />
+                </td>
+                <td>
+                    <label for="st51">51</label>
+                </td>
+                <td>200071601051</td>
+                <td>BALAJI SELVAKUMAR</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st1052" value="1052" checked form="check" />
+                </td>
+                <td>
+                    <label for="st1052">52</label>
+                </td>
+                <td>190071601052</td>
+                <td>RAYHAN BASHEER PATEL</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st1154" value="1154" checked form="check" />
+                </td>
+                <td>
+                    <label for="st1154">53</label>
+                </td>
+                <td>200071601154</td>
+                <td>SAYED NASOOHA. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2001" value="2001" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2001">54</label>
+                </td>
+                <td>200071602001</td>
+                <td>ABDUL KADER. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2002" value="2002" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2002">55</label>
+                </td>
+                <td>200071602002</td>
+                <td>ABRAR AHAMED. M</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2003" value="2003" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2003">56</label>
+                </td>
+                <td>200071602003</td>
+                <td>AYSHA NILOFAUR. N</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2006" value="2006" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2006">57</label>
+                </td>
+                <td>200071602006</td>
+                <td>JASSICA. J.C</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2007" value="2007" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2007">58</label>
+                </td>
+                <td>200071602007</td>
+                <td>MOHAMED SHERIF. K</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="students" id="st2012" value="2012" checked form="check" />
+                </td>
+                <td>
+                    <label for="st2012">59</label>
+                </td>
+                <td>200071602012</td>
+                <td>PAVITHRA. P</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="submit" form="check">Submit</button>
+    <!-- <button type="reset" form="check" onclick="toggle()">Reset</button> -->
+    <button type="reset" form="check" id="reset">Reset</button>
+    <!-- <button type="submit" form="check" formaction="https://httpbin.org/post" formmethod="post">submit</button> -->
+
+    <div class="select">
+        <h2>Copy to clpboard</h2>
+        <input id="inp" type="text">
+        <button id="btncpy">Copy</button>
+    </div>
+
+    <footer>
+        <p>&copy; Created By F.FATHIMAFAROOQ</p>
+    </footer>
+
+    <!--* Javascript code -->
+    <script src="attendance.js"></script>
+</body>
+
+</html>

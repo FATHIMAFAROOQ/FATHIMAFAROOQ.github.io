@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  text-align: center;
+}
+
+button {
+  background-color: hsl(271, 70%, 50%);
+  border: 1px solid hsl(271, 70%, 30%);
+  outline: none;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  margin: 0.5rem;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+button:hover,
+button:focus {
+  background-color: hsl(271, 70%, 40%);
+  box-shadow: 0 0 5px 0 hsl(271, 70%, 30%);
+}
+
+header {
+  background-color: #069;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.header-title {
+  margin: 0;
+}
+
+footer {
+  background-color: #069;
+  color: white;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100vw;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 100vw;
+}
+td,
+th {
+  padding: 0.2em;
+}
+
+th {
+  background-color: indigo;
+}
+tr:nth-child(even) {
+  background-color: rgba(137, 43, 226, 0.897);
+}
+tr:nth-child(odd) {
+  background-color: rgba(137, 43, 226, 0.594);
+}
+
+section {
+  background-color: deepskyblue;
+  font-weight: bold;
+  width: 100vw;
+}
+
+.select {
+  display: none;
+}
+h2 {
+  -webkit-user-select: auto;
+  user-select: all;
+  /* user select is not supported in safari so i had to use -webkit-user-select*/
+}
